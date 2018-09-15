@@ -1,5 +1,6 @@
 html {
   background-color: #bfbfbf;
+  t
 }
 
 .spanTest {
@@ -32,9 +33,13 @@ div.menubar ul {
 }
 
 div.menubar ul li {
-  float: left;
+  float: right;
   display: inline-block;
   border-right: 1px solid #bbb;
+}
+
+#home {
+  float: left;
 }
 
 div.menubar ul li a {
