@@ -80,3 +80,7 @@ div.content th {
 .centered {
   text-align: center;
 }
+
+.summary {
+  font-size: 13pt;
+}
