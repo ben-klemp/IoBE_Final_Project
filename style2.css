@@ -1,5 +1,5 @@
 html {
-  background-color: #bfbfbf;
+  background-color: #d5d5d5;
 }
 
 .spanTest {
@@ -28,13 +28,18 @@ div.menubar ul {
   top: 0;
   left: 0;
   width: 100%;
-	background-color: #333;
+	background-color: #C96F88;
+  /*background-color: #333;*/
 }
 
 div.menubar ul li {
   float: right;
   display: inline-block;
   border-right: 1px solid #bbb;
+}
+
+div.menubar ul li:last-child {
+  border-left: 1px solid #bbb;
 }
 
 #home {
@@ -45,14 +50,14 @@ div.menubar ul li a {
   display: block;
 	width: 100px;
 	height: 22px;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
 div.menubar ul li a:hover {
-  background-color: #111;
+  background-color: #D19DAC;
 }
 
 div.content {
